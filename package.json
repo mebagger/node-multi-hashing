@@ -1,5 +1,5 @@
 {
-    "name": "multi-hashing",
+    "name": "node-multi-hashing",
     "version": "0.0.9",
     "main": "multihashing",
     "author": {
@@ -8,24 +8,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-multi-hashing.git"
+        "url": "https://github.com/mebagger/node-multi-hashing.git"
     },
     "dependencies" : {
         "bindings" : "*"
     },
     "keywords": [
-        "scrypt",
-        "scryptjane",
-        "script-n",
-        "x11",
-        "quark",
-        "keccak_hash",
-        "skein",
-        "bcrypt",
-        "keccak",
-        "blake",
-        "shavite",
-        "fugue",
-        "sha1"
+        "scrypt"
+
     ]
 }
