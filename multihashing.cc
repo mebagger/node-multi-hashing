@@ -68,7 +68,7 @@ using namespace v8;
     if (args.Length() < 1) \
         RETURN_EXCEPT("You must provide one argument."); \
  \
-    Local<Object> target = args[0]->ToObject(Nan::GetCurrentContext()).FromMaybe(v8::Local<v8::Object>());
+    Local<Object> target = args[0]->ToObject(Nan::GetCurrentContext()).FromMaybe(v8::Local<v8::Object>()); \
  \
     if(!Buffer::HasInstance(target)) \
         RETURN_EXCEPT("Argument should be a buffer object."); \
