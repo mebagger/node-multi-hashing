@@ -1,20 +1,26 @@
 {
     "name": "node-multi-hashing",
-    "version": "0.0.9",
+    "version": "0.13.9",
     "main": "multihashing",
     "author": {
-        "name": "Matthew Little",
-        "email": "zone117x@gmail.com"
+        "name": "Mebagger",
+        "email": "mebagger-github@yahoo.com"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/mebagger/node-multi-hashing.git"
     },
     "dependencies" : {
-        "bindings" : "*"
+        "bindings" : "*",
+        "node-gyp": "^4.0.0",
+        "nan": ">=2.13.2"
+    },
+    "engines": {
+    "node": ">=10.15.3"
     },
     "keywords": [
-        "scrypt"
+        "scrypt",
+        "mooncoin"
 
     ]
 }
